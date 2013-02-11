@@ -1,9 +1,9 @@
 class PagesController < ApplicationController
   def home
-    @title = "Home"
+    @title = 'Home'
   end
 
   def users
-    @title = "Users"
+    @title = 'Users'
   end
 end

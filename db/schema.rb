@@ -11,16 +11,18 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130205120108) do
+ActiveRecord::Schema.define(:version => 20130211085307) do
 
-  create_table "users", :force => true do |t|
-    t.string   "surname"
-    t.string   "name"
-    t.string   "s_name"
-    t.string   "ip"
-    t.string   "group"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+  create_table 'users', :force => true do |t|
+    t.string 'surname'
+    t.string 'name'
+    t.string 's_name'
+    t.string 'ip'
+    t.string 'group'
+    t.datetime 'created_at', :null => false
+    t.datetime 'updated_at', :null => false
   end
+
+  add_index 'users', %w(ip), :name => 'index_users_on_ip', :unique => true
 
 end

@@ -1,0 +1,12 @@
+<h1>List all users</h1>
+<table>
+  <% User.all.each do |user| %>
+      <tr>
+        <td><%= user.surname %></td>
+        <td><%= user.name %></td>
+        <td><%= user.s_name %></td>
+        <td><%= user.ip %></td>
+        <td><%= user.group %></td>
+      </tr>
+  <% end %>
+</table>
