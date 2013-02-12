@@ -1,12 +1,27 @@
 <h1>List all users</h1>
 <table>
+  <tr>
+
+      <td><strong>Фамилия</strong></td>
+      <td><strong>Имя</strong></td>
+      <td><strong>Отчество</strong></td>
+      <td><strong>IP адрес</strong></td>
+      <td><strong>Группа</strong></td>
+
+  </tr>
   <% User.all.each do |user| %>
       <tr>
         <td><%= user.surname %></td>
         <td><%= user.name %></td>
         <td><%= user.s_name %></td>
         <td><%= user.ip %></td>
-        <td><%= user.group %></td>
+        <% gr = '' %>
+        <% Group.all.collect do |g| %>
+            <% if g.id == user.group then
+                 gr = g.name
+               end %>
+        <% end %>
+        <td><%= gr %></td>
       </tr>
   <% end %>
 </table>

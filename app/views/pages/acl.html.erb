@@ -1,0 +1,15 @@
+<h1>List squid acl</h1>
+<table>
+  <% i=-1 %>
+  <% @users.each do |item| %>
+      <% user, id = item.split(',') %>
+      <% if i!=id then %>
+          <% i=id %>
+          <tr><td><h3><%= @groups[id.to_i-1]+'.acl' %></h3></td></tr>
+      <% end %>
+      <tr>
+        <td><%= user %></td>
+        <td><%= @groups[id.to_i-1] %></td>
+      </tr>
+  <% end %>
+</table>

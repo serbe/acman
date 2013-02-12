@@ -1,0 +1,14 @@
+<h1>Группа <%= @group.name %></h1>
+<h1>Пользователи группы</h1>
+<table>
+  <% User.all.each do |user| %>
+      <% if user.group == @group.id then %>
+          <tr>
+            <td><%= user.surname %></td>
+            <td><%= user.name %></td>
+            <td><%= user.s_name %></td>
+            <td><%= user.ip %></td>
+          </tr>
+      <% end %>
+  <% end %>
+</table>
