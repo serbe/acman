@@ -1,8 +1,13 @@
-<h1>Группа <%= @group.name %></h1>
-<h1>Пользователи группы</h1>
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Имя группы:</strong>
+  <%= @group.name %>
+</p>
+<strong>Пользователи группы</strong>
 <table>
   <% User.all.each do |user| %>
-      <% if user.group == @group.id then %>
+      <% if user.group == @group.id %>
           <tr>
             <td><%= user.surname %></td>
             <td><%= user.name %></td>
@@ -12,3 +17,6 @@
       <% end %>
   <% end %>
 </table>
+
+<%= link_to 'Изменить', edit_group_path(@group) %> |
+<%= link_to 'Назад', group_path %>

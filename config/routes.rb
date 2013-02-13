@@ -1,26 +1,15 @@
 Acman::Application.routes.draw do
-  get 'users/new'
-
-  match '/new',  :to => 'users#new'
-
-  get 'pages/home'
-
-  match '/home',  :to => 'pages#home'
-
-  get 'pages/users'
-
-  get 'pages/list'
-
-  match '/list',  :to => 'pages#list'
-
-  get 'pages/acl'
-
-  match '/acl',  :to => 'pages#acl'
-
-  get 'groups/new'
-
   resources :users
   resources :groups
+
+  match '/newuser', :to => 'users#new'
+  match '/users', :to => 'users#index'
+
+  match '/home', :to => 'pages#home'
+  match '/acl', :to => 'pages#acl'
+
+  match '/newgroup', :to => 'groups#new'
+  match '/groups', :to => 'groups#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

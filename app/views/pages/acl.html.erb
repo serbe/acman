@@ -3,7 +3,7 @@
   <% i=-1 %>
   <% @users.each do |item| %>
       <% user, id = item.split(',') %>
-      <% if i!=id then %>
+      <% if i!=id %>
           <% i=id %>
           <tr><td><h3><%= @groups[id.to_i-1]+'.acl' %></h3></td></tr>
       <% end %>

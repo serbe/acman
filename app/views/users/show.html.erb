@@ -1,1 +1,36 @@
-<%= @user.surname %>, <%= @user.name %>, <%= @user.s_name %>, <%= @user.ip %>, <%= @group.name %>
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Фамилия:</strong>
+  <%= @user.surname %>
+</p>
+
+<p>
+  <strong>Имя:</strong>
+  <%= @user.name %>
+</p>
+
+<p>
+  <strong>Отчество:</strong>
+  <%= @user.s_name %>
+</p>
+
+<p>
+  <strong>IP адрес:</strong>
+  <%= @user.ip %>
+</p>
+
+<p>
+  <strong>Группа:</strong>
+  <% gr = '' %>
+  <% Group.all.collect do |g| %>
+      <% if g.id == @user.group then
+           gr = g.name
+         end %>
+  <% end %>
+  <%= gr %>
+</p>
+
+
+<%= link_to 'Изменить', edit_user_path(@user) %> |
+<%= link_to 'Назад', users_path %>

@@ -1,12 +1,5 @@
 <h1>Создание новой группы пользователей</h1>
 
-<%= form_for(@group) do |f| %>
-    <div class="field">
-      <%= f.label :name, 'Название группы' %>
-      <br/>
-      <%= f.text_field :name %>
-    </div>
-    <div class="actions">
-      <%= f.submit 'Создать' %>
-    </div>
-<% end %>
+<%= render 'form' %>
+
+<%= link_to 'Назад', users_path %>

@@ -1,0 +1,24 @@
+<h1>Список групп пользователей</h1>
+
+<table>
+  <tr>
+    <td><strong>Наименование</strong></td>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+  <% @groups.each do |group| %>
+      <tr>
+        <td><%= group.name %></td>
+        <td><%= link_to 'Просмотр', group %></td>
+        <td><%= link_to 'Редактирование', edit_group_path(group) %></td>
+        <td><%= link_to 'Удаление', group, method: :delete, data: { confirm: 'Вы уверены?' } %></td>
+      </tr>
+  <% end %>
+</table>
+
+<br />
+
+<%= link_to 'Новая группа', new_group_path %>
+

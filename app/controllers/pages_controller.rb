@@ -13,7 +13,7 @@ class PagesController < ApplicationController
     i = 0
     squid_path = 'd:\acman\etc\squid'
     Dir.foreach(squid_path) do |fname|
-      if fname.include?('.acl') then
+      if fname.include?('.acl')
         all_acls.push(fname.sub('.acl', ''))
         i = i + 1
         file = File.open(squid_path + '\\' + fname, 'r')
