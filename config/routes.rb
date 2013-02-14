@@ -1,15 +1,21 @@
 Acman::Application.routes.draw do
   resources :users
   resources :groups
+  resources :banlist
 
   match '/newuser', :to => 'users#new'
   match '/users', :to => 'users#index'
 
   match '/home', :to => 'pages#home'
   match '/acl', :to => 'pages#acl'
+  match '/banlists', :to => 'pages#banlists'
+  match '/banfiles', :to => 'pages#banfiles'
 
   match '/newgroup', :to => 'groups#new'
   match '/groups', :to => 'groups#index'
+
+  match '/getbanlists', :to => 'banlist#getbanlists'
+  match '/listbanfiles', :to => 'banlist#listbanfiles'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

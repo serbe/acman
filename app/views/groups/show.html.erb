@@ -6,8 +6,14 @@
 </p>
 <strong>Пользователи группы</strong>
 <table>
-  <% User.all.each do |user| %>
-      <% if user.group == @group.id %>
+  <tr>
+    <th><strong><%= sortable 'surname', 'Фамилия' %></strong></th>
+    <th><strong><%= sortable 'name', 'Имя' %></strong></th>
+    <th><strong><%= sortable 's_name', 'Отчество' %></strong></th>
+    <th><strong><%= sortable 'ip', 'IP адрес' %></strong></th>
+  </tr>
+  <% @users.each do |user| %>
+      <% if user.team == @group.name %>
           <tr>
             <td><%= user.surname %></td>
             <td><%= user.name %></td>

@@ -1,6 +1,6 @@
 require 'resolv'
 class User < ActiveRecord::Base
-  attr_accessible :group, :ip, :name, :s_name, :surname
+  attr_accessible :team, :ip, :name, :s_name, :surname
   validates :name, :presence => true,
             :length => { :maximum => 50 }
   validates :ip, :presence => true,

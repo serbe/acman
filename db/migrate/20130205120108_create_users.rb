@@ -5,7 +5,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :name, :null => false
       t.string :s_name
       t.string :ip
-      t.integer :group
+      t.string :team
 
       t.timestamps
     end

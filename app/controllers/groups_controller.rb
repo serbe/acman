@@ -1,4 +1,6 @@
 class GroupsController < ApplicationController
+  helper_method :sort_column, :sort_direction
+
   def index
     @groups = Group.all
 
@@ -25,6 +27,7 @@ class GroupsController < ApplicationController
 
   def show
     @group = Group.find(params[:id])
+    @users = User.order(sort_column + ' ' + sort_direction)
     @title = @group.name
   end
 
@@ -45,5 +48,15 @@ class GroupsController < ApplicationController
         format.json { render json: @group.errors, status: :unprocessable_entity }
       end
     end
+  end
+
+  private
+
+  def sort_column
+    User.column_names.include?(params[:sort]) ? params[:sort] : 'name'
+  end
+
+  def sort_direction
+    %w[asc desc].include?(params[:direction]) ? params[:direction] : 'asc'
   end
 end

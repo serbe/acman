@@ -1,0 +1,39 @@
+<h1>Редактирование банлиста</h1>
+
+<%= form_for(@banlist) do |f| %>
+    <% if @banlist.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@banlist.errors.count, 'error') %> prohibited this user from being saved:</h2>
+
+          <ul>
+            <% @banlist.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <div class="field">
+      <%= f.label :name, 'Наименование' %>
+      <br/>
+      <%= f.text_field :name %>
+    </div>
+    <br />
+
+    <% unless @banlist.addrs.empty? %>
+        <table class="addrs" summary="Banlist urls">
+          <%= render @addrs %>
+        </table>
+        <%= will_paginate @addrs %>
+    <% end %>
+
+    <br />
+    <div class="actions">
+      <%= f.submit 'Создать' %>
+    </div>
+<% end %>
+
+
+<br />
+<%= link_to 'Просмотр', @banlist %> |
+<%= link_to 'Назад', banlist_path %>
