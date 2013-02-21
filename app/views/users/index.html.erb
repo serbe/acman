@@ -1,0 +1,32 @@
+<h1>Список пользователей</h1>
+
+<table>
+  <tr>
+    <th><strong><%= sortable 'surname', 'Фамилия' %></strong></th>
+    <th><strong><%= sortable 'name', 'Имя' %></strong></th>
+    <th><strong><%= sortable 's_name', 'Отчество' %></strong></th>
+    <th><strong><%= sortable 'ip', 'IP адрес' %></strong></th>
+    <th><strong><%= sortable 'team', 'Группа' %></strong></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @users.each do |user| %>
+  <tr>
+    <td><%= user.surname %></td>
+    <td><%= user.name %></td>
+    <td><%= user.s_name %></td>
+    <td><%= user.ip %></td>
+    <td><%= user.team %></td>
+    <td><%= link_to 'Просмотр', user %></td>
+    <td><%= link_to 'Изменить', edit_user_path(user) %></td>
+    <td><%= link_to 'Удалить', user, method: :delete, data: { confirm: 'Вы уверены?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Новый пользователь', new_user_path %>
+
