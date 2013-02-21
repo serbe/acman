@@ -20,13 +20,6 @@
     </div>
     <br />
 
-    <% unless @banlist.addrs.empty? %>
-        <table class="addrs" summary="Banlist urls">
-          <%= render @addrs %>
-        </table>
-        <%= will_paginate @addrs %>
-    <% end %>
-
     <br />
     <div class="actions">
       <%= f.submit 'Создать' %>

@@ -3,6 +3,8 @@
 <table>
   <tr>
     <th><strong>Имя</strong></th>
+    <th><strong>Количество адресов</strong></th>
+    <th><strong>Количество regexp</strong></th>
     <th></th>
     <th></th>
     <th></th>
@@ -11,7 +13,9 @@
   <% @banlists.each do |banlist| %>
       <tr>
         <td><%= banlist.name %></td>
-        <td><%= link_to 'Просмотр', banlist %></td>
+        <td><%= banlist.addrs.all.length %></td>
+        <td><%= banlist.pcres.all.length %></td>
+        <td><%= link_to 'Адреса', [banlist, :addrs] %></td>
         <td><%= link_to 'Изменить', edit_banlist_path(banlist) %></td>
         <td><%= link_to 'Удалить', banlist, method: :delete, data: { confirm: 'Вы уверены?' } %></td>
       </tr>

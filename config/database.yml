@@ -35,7 +35,7 @@ production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: acman_production
+  database: acman
   pool: 5
   username: discip1e
   password: dispass
