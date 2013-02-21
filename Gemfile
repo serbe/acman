@@ -37,7 +37,3 @@ gem 'will_paginate'
 
 # To use debugger
 # gem 'debugger'
-
-group :production do
-  gem 'therubyracer'
-end

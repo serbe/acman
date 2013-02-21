@@ -11,7 +11,7 @@
     <ignored path="acman.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.rxml" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360244449798" ignored="false" />
-    <file path="/Dummy.txt" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361435459059" ignored="false" />
+    <file path="/Dummy.txt" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361436325049" ignored="false" />
     <file path="/home.html.erb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360658971217" ignored="false" />
     <file path="/application.html.erb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360579457621" ignored="false" />
     <file path="/pages_controller.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360827145369" ignored="false" />
@@ -108,7 +108,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="19" selection-start="814" selection-end="826" vertical-scroll-proportion="0.75">
+            <state line="37" column="1" selection-start="751" selection-end="751" vertical-scroll-proportion="0.71428573">
               <folding />
             </state>
           </provider>
@@ -1074,7 +1074,11 @@
       <created>1361435461649</created>
       <updated>1361435461649</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="gemfile productions">
+      <created>1361436333250</created>
+      <updated>1361436333250</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1099,7 +1103,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793522" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1110,8 +1114,8 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27992278" sideWeight="0.6774629" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32253712" sideWeight="0.5032175" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32253712" sideWeight="0.49227798" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32253712" sideWeight="0.5032175" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32253712" sideWeight="0.49227798" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32974428" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1161,7 +1165,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавление productions" />
+    <option name="LAST_COMMIT_MESSAGE" value="gemfile productions" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1179,6 +1183,7 @@
     <MESSAGE value="просмотр и редактирование групп&#10;приведение групп и пользователей к общему стилю" />
     <MESSAGE value="добавление банлистов" />
     <MESSAGE value="добавление productions" />
+    <MESSAGE value="gemfile productions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1289,7 +1294,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="19" selection-start="814" selection-end="826" vertical-scroll-proportion="0.75">
+        <state line="37" column="1" selection-start="751" selection-end="751" vertical-scroll-proportion="0.71428573">
           <folding />
         </state>
       </provider>
