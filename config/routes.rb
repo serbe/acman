@@ -15,6 +15,7 @@ Acman::Application.routes.draw do
 
   match '/home', :to => 'pages#home'
   match '/acl', :to => 'pages#acl'
+  match '/squid', :to => 'pages#squid'
 
   match '/newgroup', :to => 'groups#new'
   match '/groups', :to => 'groups#index'
