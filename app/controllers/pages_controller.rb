@@ -33,9 +33,9 @@ class PagesController < ApplicationController
     squid = squid_path + 'squid.conf'
     squid_conf = File.readlines(squid)
     all_acls.each do |acl|
-      unless squid_conf.join.include?('acl '+acl.name+'_acman src "'+acl.name+'.acl"')
+      unless squid_conf.join.include?('acl '+acl.name+'_acman src "'+squid_path+acl.name+'.acl"')
         pos = squid_conf.index('acl CONNECT method CONNECT'+eos)
-        squid_conf.insert(pos+1, 'acl '+acl.name+'_acman src "'+acl.name+'.acl"'+eos)
+        squid_conf.insert(pos+1, 'acl '+acl.name+'_acman src "'+squid_path+acl.name+'.acl"'+eos)
       end
       unless squid_conf.join.include?('http_access allow '+acl.name+'_acman')
         pos = squid_conf.index('http_access allow localhost'+eos)
