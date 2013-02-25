@@ -32,19 +32,22 @@ class PagesController < ApplicationController
     squid_path = '/etc/squid/'
     squid = squid_path + 'squid.conf'
     squid_conf = File.readlines(squid)
+    new_squid_conf = squid_conf
     all_acls.each do |acl|
-      unless squid_conf.join.include?('acl '+acl.name+'_acman src "'+squid_path+acl.name+'.acl"')
-        pos = squid_conf.index('acl CONNECT method CONNECT'+eos)
-        squid_conf.insert(pos+1, 'acl '+acl.name+'_acman src "'+squid_path+acl.name+'.acl"'+eos)
+      unless new_squid_conf.join.include?('acl '+acl.name+'_acman src "'+squid_path+acl.name+'.acl"')
+        pos = new_squid_conf.index('acl CONNECT method CONNECT'+eos)
+        new_squid_conf.insert(pos+1, 'acl '+acl.name+'_acman src "'+squid_path+acl.name+'.acl"'+eos)
       end
-      unless squid_conf.join.include?('http_access allow '+acl.name+'_acman')
-        pos = squid_conf.index('http_access allow localhost'+eos)
-        squid_conf.insert(pos+1, 'http_access allow '+acl.name+'_acman'+eos)
+      unless new_squid_conf.join.include?('http_access allow '+acl.name+'_acman')
+        pos = new_squid_conf.index('http_access allow localhost'+eos)
+        new_squid_conf.insert(pos+1, 'http_access allow '+acl.name+'_acman'+eos)
       end
     end
-    File.open('/tmp/squid.conf.new', 'w').write(squid_conf.join)
-    system '/usr/bin/sudo /bin/cp /tmp/squid.conf.new ' + squid_path + 'squid.conf'
-    system '/usr/bin/sudo /usr/sbin/squid -k reconfigure'
-    @squid = squid_conf
+    unless new_squid_conf == squid_conf
+      File.open('/tmp/squid.conf.new', 'w').write(squid_conf.join)
+      system '/usr/bin/sudo /bin/cp /tmp/squid.conf.new ' + squid_path + 'squid.conf'
+      system '/usr/bin/sudo /usr/sbin/squid -k reconfigure'
+    end
+    @squid = new_squid_conf
   end
 end
