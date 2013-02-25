@@ -42,8 +42,8 @@ class PagesController < ApplicationController
         squid_conf.insert(pos+1, 'http_access allow '+acl.name+'_acman')
       end
     end
-    File.open(squid_path + 'squid.conf.new', 'w').write(squid_conf.join)
-    system '/usr/bin/sudo /bin/cp ' + squid_path + 'squid.conf.new ' + squid_path + 'squid.conf'
+    File.open('/tmp/squid.conf.new', 'w').write(squid_conf.join)
+    system '/usr/bin/sudo /bin/cp /tmp/squid.conf.new ' + squid_path + 'squid.conf'
     system '/usr/bin/sudo /usr/sbin/squid -k reconfigure'
     @squid = squid_conf
   end
