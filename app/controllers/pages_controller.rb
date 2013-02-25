@@ -17,7 +17,7 @@ class PagesController < ApplicationController
         all_acls.push(fname.sub('.acl', ''))
         i = i + 1
         file = File.open(squid_path + '\\' + fname, 'r')
-        file.each {|line|
+        file.each { |line|
           all_users.push(line + ',' + i.to_s)
         }
       end
@@ -26,4 +26,25 @@ class PagesController < ApplicationController
     @groups = all_acls
   end
 
+  def squid
+    all_acls = Group.all
+    eos = "\n"
+    squid_path = '/etc/squid/'
+    squid = squid_path + 'squid.conf'
+    squid_conf = File.readlines(squid)
+    all_acls.each do |acl|
+      unless squid_conf.join.include?('acl '+acl.name+'_acman src "'+acl.name+'.acl"')
+        pos = squid_conf.index('acl CONNECT method CONNECT'+eos)
+        squid_conf.insert(pos+1, 'acl '+acl.name+'_acman src "'+acl.name+'.acl"')
+      end
+      unless squid_conf.join.include?('http_access allow '+acl.name+'_acman')
+        pos = squid_conf.index('http_access allow localhost'+eos)
+        squid_conf.insert(pos+1, 'http_access allow '+acl.name+'_acman')
+      end
+    end
+    File.open(squid_path + 'squid.conf.new', 'w').write(squid_conf.join)
+    system '/usr/bin/sudo /bin/cp ' + squid_path + 'squid.conf.new ' + squid_path + 'squid.conf'
+    system '/usr/bin/sudo /usr/sbin/squid -k reconfigure'
+    @squid = squid_conf
+  end
 end
