@@ -63,7 +63,7 @@ class PagesController < ApplicationController
   private
 
   def sudo_cp_file(src, dst)
-    system '/usr/bin/sudo /bin/cp ' + scr + ' ' + dst
+    system '/usr/bin/sudo /bin/cp ' + src + ' ' + dst
     system '/usr/bin/sudo /bin/chown root:root ' + dst
     system '/usr/bin/sudo /bin/rm ' + src
   end
