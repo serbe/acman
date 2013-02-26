@@ -43,7 +43,8 @@
     <br />
     <%= 'Список свободных IP адресов' %>
     <% for i in 2..254 %>
-        <% if User.find_all_by_ip ('192.168.8.'+i.to_s) == [] %>
+        <% if User.where(:ip => '192.168.8.'+i.to_s).size == 0 %>
+            <br />
             <%= '192.168.8.' + i.to_s %>
         <% end %>
     <% end %>
