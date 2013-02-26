@@ -54,9 +54,7 @@ class PagesController < ApplicationController
         acl_file.write(item.ip + eos)
       end
       acl_file.close
-      system '/usr/bin/sudo /bin/cp /tmp/acman_' + acl.name + '.acl ' + squid_path
-      system '/usr/bin/sudo /bin/chown root:root ' + squid_path + 'acman_' + acl.name + '.acl'
-      system '/usr/bin/sudo /bin/rm /tmp/acman_' + acl.name + '.acl'
+      sudo_cp_file('/tmp/acman_' + acl.name + '.acl', squid_path_+ acl.name + '.acl')
 
       unless new_squid_conf.join.include?('acl acman_'+acl.name+' src "' + squid_path + 'acman_' + acl.name + '.acl"')
         pos = new_squid_conf.index('acl CONNECT method CONNECT' + eos)
@@ -68,9 +66,7 @@ class PagesController < ApplicationController
       end
     end
     File.open('/tmp/squid.conf.new', 'w').write(squid_conf.join)
-    system '/usr/bin/sudo /bin/cp /tmp/squid.conf.new ' + squid_path + 'squid.conf'
-    system '/usr/bin/sudo /bin/chown root:root ' + squid_path + 'squid.conf'
-    system '/usr/bin/sudo /bin/rm /tmp/squid.conf.new'
+    sudo_cp_file('/tmp/squid.conf.new', squid_path + 'squid.conf')
     system '/usr/bin/sudo /usr/sbin/squid -k reconfigure'
     @squid = new_squid_conf
 
@@ -80,8 +76,14 @@ class PagesController < ApplicationController
       free_sa.write(item.ip + ' ' + item.surname + ' ' + item.name + ' ' + item.s_name + eos)
     end
     free_sa.close
-    system '/usr/bin/sudo /bin/cp /tmp/users /etc/free-sa/users'
-    system '/usr/bin/sudo /bin/chown root:root /etc/free-sa/users'
-    system '/usr/bin/sudo /bin/rm /tmp/users'
+    sudo_cp_file('/tmp/users', '/etc/free-sa/users')
+  end
+
+  private
+
+  def sudo_cp_file(src, dst)
+    system '/usr/bin/sudo /bin/cp ' + scr + ' ' + dst
+    system '/usr/bin/sudo /bin/chown root:root ' + dst
+    system '/usr/bin/sudo /bin/rm ' + src
   end
 end
