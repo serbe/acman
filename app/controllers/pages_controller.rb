@@ -49,22 +49,22 @@ class PagesController < ApplicationController
 
     new_squid_conf = squid_conf
     all_acls.each do |acl|
-      acl_file = File.open('/tmp/' + acl.name + '_acman.acl', 'w')
+      acl_file = File.open('/tmp/acman_' + acl.name + '.acl', 'w')
       User.where(:team => acl.name).each do |item|
         acl_file.write(item.ip + eos)
       end
       acl_file.close
-      system '/usr/bin/sudo /bin/cp /tmp/' + acl.name + '_acman.acl ' + squid_path
-      system '/usr/bin/sudo /bin/chown root:root ' + squid_path + acl.name + '_acman.acl'
-      system '/usr/bin/sudo /bin/rm /tmp/' + acl.name + '_acman.acl'
+      system '/usr/bin/sudo /bin/cp /tmp/acman_' + acl.name + '.acl ' + squid_path
+      system '/usr/bin/sudo /bin/chown root:root ' + squid_path + 'acman_' + acl.name + '.acl'
+      system '/usr/bin/sudo /bin/rm /tmp/acman_' + acl.name + '.acl'
 
-      unless new_squid_conf.join.include?('acl '+acl.name+'_acman src "' + squid_path + acl.name + '_acman.acl"')
+      unless new_squid_conf.join.include?('acl acman_'+acl.name+' src "' + squid_path + 'acman_' + acl.name + '.acl"')
         pos = new_squid_conf.index('acl CONNECT method CONNECT' + eos)
-        new_squid_conf.insert(pos+1, 'acl ' + acl.name + '_acman src "' + squid_path + acl.name + '_acman.acl"' + eos)
+        new_squid_conf.insert(pos+1, 'acl acman_' + acl.name + ' src "' + squid_path + 'acman_' + acl.name + '.acl"' + eos)
       end
-      unless new_squid_conf.join.include?('http_access allow ' + acl.name + '_acman')
+      unless new_squid_conf.join.include?('http_access allow acman_' + acl.name)
         pos = new_squid_conf.index('http_access allow localhost' + eos)
-        new_squid_conf.insert(pos+1, 'http_access allow ' + acl.name + '_acman' + eos)
+        new_squid_conf.insert(pos+1, 'http_access allow acman_' + acl.name + eos)
       end
     end
     File.open('/tmp/squid.conf.new', 'w').write(squid_conf.join)
