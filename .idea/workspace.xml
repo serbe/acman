@@ -4,19 +4,19 @@
     <option name="ANALYZE_TEST_SOURCES" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" name="Default" comment="remove all acl">
+    <list default="true" id="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" name="Default" comment="remove old acl from squid.conf&#10;generate users file for free-sa">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="acman.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.rxml" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360244449798" ignored="false" />
-    <file path="/Dummy.txt" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361864453030" ignored="false" />
+    <file path="/Dummy.txt" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361866003470" ignored="false" />
     <file path="/home.html.erb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361766970368" ignored="false" />
     <file path="/application.html.erb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360579457621" ignored="false" />
-    <file path="/pages_controller.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361865729559" ignored="false" />
+    <file path="/pages_controller.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361867413421" ignored="false" />
     <file path="/application_helper.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360326189867" ignored="false" />
-    <file path="/Ruby Console" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361859585155" ignored="false" />
+    <file path="/Ruby Console" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361867286006" ignored="false" />
     <file path="/routes.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361766941399" ignored="false" />
     <file path="/_header.html.erb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360912328202" ignored="false" />
     <file path="/users_controller.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360754460829" ignored="false" />
@@ -102,7 +102,7 @@
       <file leaf-file-name="pages_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="42" selection-start="2759" selection-end="2759" vertical-scroll-proportion="1.25">
+            <state line="64" column="78" selection-start="1950" selection-end="1950" vertical-scroll-proportion="0.78571427">
               <folding />
             </state>
           </provider>
@@ -956,7 +956,11 @@
       <created>1361860392645</created>
       <updated>1361860392645</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="remove old acl from squid.conf&#10;generate users file for free-sa">
+      <created>1361865773087</created>
+      <updated>1361865773087</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1043,7 +1047,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add end of strinf into alc" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove old acl from squid.conf&#10;generate users file for free-sa" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1077,6 +1081,7 @@
     <MESSAGE value="add squid acl files" />
     <MESSAGE value="add missing alc name" />
     <MESSAGE value="add end of strinf into alc" />
+    <MESSAGE value="remove old acl from squid.conf&#10;generate users file for free-sa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1189,7 +1194,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="42" selection-start="2759" selection-end="2759" vertical-scroll-proportion="1.25">
+        <state line="64" column="78" selection-start="1950" selection-end="1950" vertical-scroll-proportion="0.78571427">
           <folding />
         </state>
       </provider>
