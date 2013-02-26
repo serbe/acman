@@ -11,7 +11,7 @@
     <ignored path="acman.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.rxml" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360244449798" ignored="false" />
-    <file path="/Dummy.txt" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361854632174" ignored="false" />
+    <file path="/Dummy.txt" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361855014934" ignored="false" />
     <file path="/home.html.erb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361766970368" ignored="false" />
     <file path="/application.html.erb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360579457621" ignored="false" />
     <file path="/pages_controller.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361854601613" ignored="false" />
@@ -102,7 +102,7 @@
       <file leaf-file-name="pages_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1316" selection-end="1593" vertical-scroll-proportion="0.64285713">
+            <state line="48" column="4" selection-start="1537" selection-end="1537" vertical-scroll-proportion="1.7142857">
               <folding />
             </state>
           </provider>
@@ -946,7 +946,11 @@
       <created>1361854634740</created>
       <updated>1361854634740</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="remove unless">
+      <created>1361855016611</created>
+      <updated>1361855016611</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1033,7 +1037,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="chown root squid.conf.new" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove unless" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1061,6 +1065,7 @@
     <MESSAGE value="add /etc/squid/ to acl  in squid.conf" />
     <MESSAGE value="write to squid.conf only if change it" />
     <MESSAGE value="chown root squid.conf.new" />
+    <MESSAGE value="remove unless" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1171,7 +1176,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1316" selection-end="1593" vertical-scroll-proportion="0.64285713">
+        <state line="48" column="4" selection-start="1537" selection-end="1537" vertical-scroll-proportion="1.7142857">
           <folding />
         </state>
       </provider>

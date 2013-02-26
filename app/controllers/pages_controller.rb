@@ -44,9 +44,9 @@ class PagesController < ApplicationController
       end
     end
     File.open('/tmp/squid.conf.new', 'w').write(squid_conf.join)
-    #system '/usr/bin/sudo /bin/cp /tmp/squid.conf.new ' + squid_path + 'squid.conf'
+    system '/usr/bin/sudo /bin/cp /tmp/squid.conf.new ' + squid_path + 'squid.conf'
     system '/usr/bin/sudo /bin/chown root:root /tmp/squid.conf.new'
-    #system '/usr/bin/sudo /usr/sbin/squid -k reconfigure'
+    system '/usr/bin/sudo /usr/sbin/squid -k reconfigure'
     @squid = new_squid_conf
   end
 end
