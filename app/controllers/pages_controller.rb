@@ -33,12 +33,18 @@ class PagesController < ApplicationController
 
     Dir.foreach(squid_path) do |fname|
       if fname.include?('.acl')
-        system '/usr/bin/sudo /bin/rm ' + fname
+        system '/usr/bin/sudo /bin/rm ' + squid_path + fname
       end
     end
 
     squid = squid_path + 'squid.conf'
     squid_conf = File.readlines(squid)
+    squid_conf.each do |line|
+      if line.include?('_acman.acl"')
+        squid_conf.delete(line)
+      end
+    end
+
     new_squid_conf = squid_conf
     all_acls.each do |acl|
       acl_file = File.open('/tmp/' + acl.name + '.acl', 'w')
@@ -46,13 +52,13 @@ class PagesController < ApplicationController
         acl_file.write(item.ip + eos)
       end
       acl_file.close
-      system '/usr/bin/sudo /bin/cp /tmp/' + acl.name + '.acl ' + squid_path
-      system '/usr/bin/sudo /bin/chown root:root ' + squid_path + acl.name + '.acl'
-      system '/usr/bin/sudo /bin/rm /tmp/' + acl.name + '.acl'
+      system '/usr/bin/sudo /bin/cp /tmp/' + acl.name + '_acman.acl ' + squid_path
+      system '/usr/bin/sudo /bin/chown root:root ' + squid_path + acl.name + '_acman.acl'
+      system '/usr/bin/sudo /bin/rm /tmp/' + acl.name + '_acman.acl'
 
       unless new_squid_conf.join.include?('acl '+acl.name+'_acman src "'+squid_path+acl.name+'.acl"')
         pos = new_squid_conf.index('acl CONNECT method CONNECT'+eos)
-        new_squid_conf.insert(pos+1, 'acl '+acl.name+'_acman src "'+squid_path+acl.name+'.acl"'+eos)
+        new_squid_conf.insert(pos+1, 'acl '+acl.name+'_acman src "'+squid_path+acl.name+'_acman.acl"'+eos)
       end
       unless new_squid_conf.join.include?('http_access allow '+acl.name+'_acman')
         pos = new_squid_conf.index('http_access allow localhost'+eos)
@@ -66,4 +72,14 @@ class PagesController < ApplicationController
     system '/usr/bin/sudo /usr/sbin/squid -k reconfigure'
     @squid = new_squid_conf
   end
+
+  #Создание списка для free-sa
+  free_sa = File.open('/tmp/users', 'w')
+  User.all.each do |item|
+    free_sa.write(item.ip + ' ' + item.surname + ' ' + item.name + ' ' + item.s_name)
+  end
+  free_sa.close
+  system '/usr/bin/sudo /bin/cp /tmp/users /etc/free-sa/users'
+  system '/usr/bin/sudo /bin/chown root:root /etc/free-sa/users'
+  system '/usr/bin/sudo /bin/rm /tmp/users'
 end

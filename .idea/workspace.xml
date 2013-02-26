@@ -4,17 +4,17 @@
     <option name="ANALYZE_TEST_SOURCES" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" name="Default" comment="">
+    <list default="true" id="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" name="Default" comment="remove all acl">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="acman.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.rxml" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360244449798" ignored="false" />
-    <file path="/Dummy.txt" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361860301978" ignored="false" />
+    <file path="/Dummy.txt" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361864453030" ignored="false" />
     <file path="/home.html.erb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361766970368" ignored="false" />
     <file path="/application.html.erb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360579457621" ignored="false" />
-    <file path="/pages_controller.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361860370920" ignored="false" />
+    <file path="/pages_controller.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361865729559" ignored="false" />
     <file path="/application_helper.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360326189867" ignored="false" />
     <file path="/Ruby Console" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361859585155" ignored="false" />
     <file path="/routes.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361766941399" ignored="false" />
@@ -102,7 +102,7 @@
       <file leaf-file-name="pages_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="37" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.25">
+            <state line="83" column="42" selection-start="2759" selection-end="2759" vertical-scroll-proportion="1.25">
               <folding />
             </state>
           </provider>
@@ -111,7 +111,7 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="25" selection-start="1221" selection-end="1228" vertical-scroll-proportion="-10.807693">
+            <state line="45" column="25" selection-start="1221" selection-end="1228" vertical-scroll-proportion="-29.423077">
               <folding />
             </state>
           </provider>
@@ -952,7 +952,11 @@
       <created>1361860304024</created>
       <updated>1361860304024</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add end of strinf into alc">
+      <created>1361860392645</created>
+      <updated>1361860392645</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1039,7 +1043,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add missing alc name" />
+    <option name="LAST_COMMIT_MESSAGE" value="add end of strinf into alc" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1072,6 +1076,7 @@
     <MESSAGE value="delete squid.conf.new" />
     <MESSAGE value="add squid acl files" />
     <MESSAGE value="add missing alc name" />
+    <MESSAGE value="add end of strinf into alc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1177,14 +1182,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="25" selection-start="1221" selection-end="1228" vertical-scroll-proportion="-10.807693">
+        <state line="45" column="25" selection-start="1221" selection-end="1228" vertical-scroll-proportion="-29.423077">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="37" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.25">
+        <state line="83" column="42" selection-start="2759" selection-end="2759" vertical-scroll-proportion="1.25">
           <folding />
         </state>
       </provider>
