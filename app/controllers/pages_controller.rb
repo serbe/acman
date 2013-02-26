@@ -41,14 +41,14 @@ class PagesController < ApplicationController
     squid_conf = File.readlines(squid)
     new_squid_conf = squid_conf
     all_acls.each do |acl|
-      acl_file = File.open('/tmp/' + acl + '.acl', 'w')
+      acl_file = File.open('/tmp/' + acl.name + '.acl', 'w')
       User.where(:team => acl).each do |item|
         acl_file.write(item.ip)
       end
       acl_file.close
-      system '/usr/bin/sudo /bin/cp /tmp/' + acl + '.acl ' + squid_path
-      system '/usr/bin/sudo /bin/chown root:root ' + squid_path + acl + '.acl'
-      system '/usr/bin/sudo /bin/rm /tmp/' + acl + '.acl'
+      system '/usr/bin/sudo /bin/cp /tmp/' + acl.name + '.acl ' + squid_path
+      system '/usr/bin/sudo /bin/chown root:root ' + squid_path + acl.name + '.acl'
+      system '/usr/bin/sudo /bin/rm /tmp/' + acl.name + '.acl'
 
       unless new_squid_conf.join.include?('acl '+acl.name+'_acman src "'+squid_path+acl.name+'.acl"')
         pos = new_squid_conf.index('acl CONNECT method CONNECT'+eos)
