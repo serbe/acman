@@ -40,4 +40,11 @@
     <div class="actions">
       <%= f.submit 'Создать' %>
     </div>
+    <br />
+    <%= 'Список свободных IP адресов' %>
+    <% for i in 2..254 %>
+        <% if User.find_all_by_ip ('192.168.8.'+i.to_s) == [] %>
+            <%= '192.168.8.' + i.to_s %>
+        <% end %>
+    <% end %>
 <% end %>
