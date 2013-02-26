@@ -42,7 +42,7 @@ class PagesController < ApplicationController
     new_squid_conf = squid_conf
     all_acls.each do |acl|
       acl_file = File.open('/tmp/' + acl.name + '.acl', 'w')
-      User.where(:team => acl).each do |item|
+      User.where(:team => acl.name).each do |item|
         acl_file.write(item.ip)
       end
       acl_file.close
