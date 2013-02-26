@@ -71,7 +71,7 @@ class PagesController < ApplicationController
     system '/usr/bin/sudo /bin/cp /tmp/squid.conf.new ' + squid_path + 'squid.conf'
     system '/usr/bin/sudo /bin/chown root:root ' + squid_path + 'squid.conf'
     system '/usr/bin/sudo /bin/rm /tmp/squid.conf.new'
-    #system '/usr/bin/sudo /usr/sbin/squid -k reconfigure'
+    system '/usr/bin/sudo /usr/sbin/squid -k reconfigure'
     @squid = new_squid_conf
 
     #Создание списка для free-sa
