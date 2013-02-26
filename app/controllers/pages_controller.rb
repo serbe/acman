@@ -43,7 +43,7 @@ class PagesController < ApplicationController
       if line.include?('_acman.acl"')
         squid_conf.delete(line)
         li = line.split[2]
-        squid_conf.delete(http_access allow ' + line + eos)
+        squid_conf.delete('http_access allow ' + li + eos)
       end
     end
 
