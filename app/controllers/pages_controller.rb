@@ -56,7 +56,7 @@ class PagesController < ApplicationController
       acl_file.close
       system '/usr/bin/sudo /bin/cp /tmp/' + acl.name + '_acman.acl ' + squid_path
       system '/usr/bin/sudo /bin/chown root:root ' + squid_path + acl.name + '_acman.acl'
-      #system '/usr/bin/sudo /bin/rm /tmp/' + acl.name + '_acman.acl'
+      system '/usr/bin/sudo /bin/rm /tmp/' + acl.name + '_acman.acl'
 
       unless new_squid_conf.join.include?('acl '+acl.name+'_acman src "' + squid_path + acl.name + '_acman.acl"')
         pos = new_squid_conf.index('acl CONNECT method CONNECT' + eos)
@@ -73,15 +73,15 @@ class PagesController < ApplicationController
     system '/usr/bin/sudo /bin/rm /tmp/squid.conf.new'
     #system '/usr/bin/sudo /usr/sbin/squid -k reconfigure'
     @squid = new_squid_conf
-  end
 
-  #Создание списка для free-sa
-  free_sa = File.open('/tmp/users', 'w')
-  User.all.each do |item|
-    free_sa.write(item.ip + ' ' + item.surname + ' ' + item.name + ' ' + item.s_name)
+    #Создание списка для free-sa
+    free_sa = File.open('/tmp/users', 'w')
+    User.all.each do |item|
+      free_sa.write(item.ip + ' ' + item.surname + ' ' + item.name + ' ' + item.s_name + eos)
+    end
+    free_sa.close
+    system '/usr/bin/sudo /bin/cp /tmp/users /etc/free-sa/users'
+    system '/usr/bin/sudo /bin/chown root:root /etc/free-sa/users'
+    system '/usr/bin/sudo /bin/rm /tmp/users'
   end
-  free_sa.close
-  system '/usr/bin/sudo /bin/cp /tmp/users /etc/free-sa/users'
-  system '/usr/bin/sudo /bin/chown root:root /etc/free-sa/users'
-  #system '/usr/bin/sudo /bin/rm /tmp/users'
 end
