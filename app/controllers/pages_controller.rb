@@ -35,7 +35,7 @@ class PagesController < ApplicationController
         acl_file.write(item.ip + eos)
       end
       acl_file.close
-      sudo_cp_file('/tmp/acman_' + acl.name + '.acl', squid_path_+ acl.name + '.acl')
+      sudo_cp_file('/tmp/acman_' + acl.name + '.acl', squid_path + acl.name + '.acl')
 
       unless new_squid_conf.join.include?('acl acman_'+acl.name+' src "' + squid_path + 'acman_' + acl.name + '.acl"')
         pos = new_squid_conf.index('acl CONNECT method CONNECT' + eos)
