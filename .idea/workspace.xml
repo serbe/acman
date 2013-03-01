@@ -5,13 +5,98 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\ie.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\plugins\buttons\icons\cross.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\plugins\buttons\icons\key.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\plugins\buttons\icons\tick.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\plugins\buttons\readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\plugins\buttons\screen.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\plugins\fancy-type\readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\plugins\fancy-type\screen.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\plugins\link-icons\icons\doc.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\plugins\link-icons\icons\email.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\plugins\link-icons\icons\external.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\plugins\link-icons\icons\feed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\plugins\link-icons\icons\im.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\plugins\link-icons\icons\lock.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\plugins\link-icons\icons\pdf.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\plugins\link-icons\icons\visited.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\plugins\link-icons\icons\xls.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\plugins\link-icons\readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\plugins\link-icons\screen.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\plugins\rtl\readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\plugins\rtl\screen.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\print.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\screen.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\src\forms.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\src\grid.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\src\grid.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\src\ie.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\src\print.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\src\reset.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\blueprint\src\typography.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\custom.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\app\assets\stylesheets\scaffolds.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\db\migrate\20130228124251_add_details_to_users.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\application-3d50293fe5c62a01331df21cef7db36d.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\application-3d50293fe5c62a01331df21cef7db36d.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\application-ef4eccf6dc5479e42236c806f7075b00.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\application-ef4eccf6dc5479e42236c806f7075b00.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\application.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\application.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\application.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\application.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\buttons\icons\cross-347854b76d491352f5429d86706e1f79.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\buttons\icons\cross.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\buttons\icons\key-f95cffaa01ae4b233cb04e2899cee363.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\buttons\icons\key.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\buttons\icons\tick-b8b2f83a50c917de309fa72744388454.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\buttons\icons\tick.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\buttons\readme-5bcbe362fe326ac6dbebc2081f66aaac.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\buttons\readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\fancy-type\readme-2e0a6572e02cbe65aaeef8f524b1f220.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\fancy-type\readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\link-icons\icons\doc-98f39aaba14119e05b16fcff4401bb78.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\link-icons\icons\doc.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\link-icons\icons\email-a41fa184924f1cc2402a4b8b1d54960a.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\link-icons\icons\email.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\link-icons\icons\external-d156f9dfee740cf71d790855a89a069a.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\link-icons\icons\external.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\link-icons\icons\feed-5c104cf608df62beff8f66914389d570.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\link-icons\icons\feed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\link-icons\icons\im-b83b06fc5f646e88c3a9167a4c2414b9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\link-icons\icons\im.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\link-icons\icons\lock-03dc63ab9e655bdf08a3129db1333eb9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\link-icons\icons\lock.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\link-icons\icons\pdf-7938c554bd867edef9b64d2854398996.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\link-icons\icons\pdf.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\link-icons\icons\visited-b922781dd5981012d641cec5ebb47f9e.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\link-icons\icons\visited.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\link-icons\icons\xls-8193b26730844975f7e9d62a22eaa52f.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\link-icons\icons\xls.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\link-icons\readme-d561b9b0cf6cdfc5f7cda408b32cde8e.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\link-icons\readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\rtl\readme-7849adaa555f845d28c4696ca45f79ff.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\plugins\rtl\readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\src\grid-de7b2a746dc9b53859b8a6ba7474af0f.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\blueprint\src\grid.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\jquery.min-959a5819c76e1508f5a8655c289c0de8.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\manifest.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\rails-a3386665c05a2d82f711a4aaa72d247c.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\ruby\acman\public\assets\rails.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130205120108_create_users.rb" afterPath="$PROJECT_DIR$/db/migrate/20130205120108_create_users.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_stylesheets.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_stylesheets.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/index.html.erb" afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="acman.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.rxml" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360244449798" ignored="false" />
-    <file path="/Dummy.txt" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1362131118800" ignored="false" />
+    <file path="/Dummy.txt" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1362135680534" ignored="false" />
     <file path="/home.html.erb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361766970368" ignored="false" />
     <file path="/application.html.erb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360579457621" ignored="false" />
     <file path="/pages_controller.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361953128735" ignored="false" />
@@ -20,7 +105,7 @@
     <file path="/routes.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361766941399" ignored="false" />
     <file path="/_header.html.erb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360912328202" ignored="false" />
     <file path="/users_controller.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360754460829" ignored="false" />
-    <file path="/user.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1362133031224" ignored="false" />
+    <file path="/user.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1362133296528" ignored="false" />
     <file path="/20130211085307_add_ip_uniqueness_index.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360572910951" ignored="false" />
     <file path="/show.html.erb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1362130877998" ignored="false" />
     <file path="/new.html.erb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360745171947" ignored="false" />
@@ -30,11 +115,11 @@
     <file path="/grous_controller.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360665279504" ignored="false" />
     <file path="/groups_controller.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360757890061" ignored="false" />
     <file path="/temp.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360837263731" ignored="false" />
-    <file path="/20130205120108_create_users.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360757299555" ignored="false" />
-    <file path="/index.html.erb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1362131009668" ignored="false" />
+    <file path="/20130205120108_create_users.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1362133321477" ignored="false" />
+    <file path="/index.html.erb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1362133416264" ignored="false" />
     <file path="/edit.html.erb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360911726365" ignored="false" />
     <file path="/_form.html.erb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1361858434619" ignored="false" />
-    <file path="/schema.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1362115136918" ignored="false" />
+    <file path="/schema.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1362133232098" ignored="false" />
     <file path="/banlists.html.erb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360839753775" ignored="false" />
     <file path="/banfiles.html.erb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360827562169" ignored="false" />
     <file path="/banlist.rb" changelist="1f9c51b8-d5a7-41e2-9b3a-87feacc3dab2" time="1360838460254" ignored="false" />
@@ -80,55 +165,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pages_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="49" selection-start="2065" selection-end="2065" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="79" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="17" selection-start="1194" selection-end="1194" vertical-scroll-proportion="-21.538462">
-              <folding>
-                <marker date="1361858508614" expanded="true" signature="96:364" placeholder="..." />
-                <marker date="1361858508614" expanded="true" signature="216:349" placeholder="..." />
-                <marker date="1361858508614" expanded="true" signature="403:502" placeholder="..." />
-                <marker date="1361858508614" expanded="true" signature="526:615" placeholder="..." />
-                <marker date="1361858508614" expanded="true" signature="639:737" placeholder="..." />
-                <marker date="1361858508614" expanded="true" signature="761:851" placeholder="..." />
-                <marker date="1361858508614" expanded="true" signature="875:1043" placeholder="..." />
-                <marker date="1361858508614" expanded="true" signature="1080:1123" placeholder="..." />
-              </folding>
+            <state line="44" column="17" selection-start="1194" selection-end="1194" vertical-scroll-proportion="-0.65384614">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+      <file leaf-file-name="_stylesheets.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_stylesheets.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="26" selection-start="645" selection-end="645" vertical-scroll-proportion="-18.307692">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -137,14 +186,14 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="25" selection-start="877" selection-end="877" vertical-scroll-proportion="-18.307692">
+            <state line="5" column="6" selection-start="96" selection-end="96" vertical-scroll-proportion="-3.2692308">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <file leaf-file-name="pages.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pages.css.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -152,28 +201,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <file leaf-file-name="users.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/users.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="77" selection-start="126" selection-end="126" vertical-scroll-proportion="0.048991356">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20130228124251_add_details_to_users.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130228124251_add_details_to_users.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="25" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="squid.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/pages/squid.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="19" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -201,8 +232,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/squid.html.erb" />
@@ -212,11 +241,13 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/banlist/listbanfiles.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130228124251_add_details_to_users.rb" />
-        <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
+        <option value="$PROJECT_DIR$/db/schema.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130228124251_add_details_to_users.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130205120108_create_users.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_stylesheets.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
       </list>
     </option>
   </component>
@@ -295,6 +326,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
@@ -400,6 +432,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="acman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="acman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -418,9 +472,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="acman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="acman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="acman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="acman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -462,7 +555,7 @@
       <recent name="D:\ruby\acman\app\views\users" />
     </key>
   </component>
-  <component name="RunManager" selected="Rake.db:migrate">
+  <component name="RunManager" selected="Rails.Development: acman">
     <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="acman" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -840,15 +933,15 @@
       <method />
     </configuration>
     <list size="9">
-      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Production: acman" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Development: acman" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.db:create" />
-      <item index="6" class="java.lang.String" itemvalue="IRB console.Rails console: acman" />
-      <item index="7" class="java.lang.String" itemvalue="Rake.db:drop" />
-      <item index="8" class="java.lang.String" itemvalue="Rake.assets:precompile" />
+      <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.db:create" />
+      <item index="2" class="java.lang.String" itemvalue="IRB console.Rails console: acman" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.db:drop" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.assets:precompile" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="7" class="java.lang.String" itemvalue="Rails.Production: acman" />
+      <item index="8" class="java.lang.String" itemvalue="Rails.Development: acman" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -1049,7 +1142,11 @@
       <created>1362131120362</created>
       <updated>1362131120362</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="update model user">
+      <created>1362133047213</created>
+      <updated>1362133047213</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1074,23 +1171,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793522" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32388663" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29150578" sideWeight="0.31983805" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31145433" sideWeight="0.67881244" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29150578" sideWeight="0.31983805" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32253712" sideWeight="0.5032175" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3211876" sideWeight="0.49227798" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29150578" sideWeight="0.31983805" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29150578" sideWeight="0.31983805" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23037323" sideWeight="0.6702557" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32974428" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3211876" sideWeight="0.49227798" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Routes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3243607" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1136,7 +1236,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="migrate" />
+    <option name="LAST_COMMIT_MESSAGE" value="update model user" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1149,7 +1249,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="squid reconfigure" />
     <MESSAGE value="squid add acl to squid.conf" />
     <MESSAGE value="squid_new in /tmp" />
     <MESSAGE value="add end of string in squid.conf" />
@@ -1174,122 +1273,106 @@
     <MESSAGE value="fix squid" />
     <MESSAGE value="add mac address and computer name" />
     <MESSAGE value="migrate" />
+    <MESSAGE value="update model user" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130212100636_create_groups.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="35" selection-start="66" selection-end="66" vertical-scroll-proportion="0.040669855" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/banlist/listbanfiles.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="414" selection-end="414" vertical-scroll-proportion="0.5740319" />
+        <state line="2" column="77" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0745614" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130205120108_create_users.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="24" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="66" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="34" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
+        <state line="6" column="34" selection-start="244" selection-end="244" vertical-scroll-proportion="0.2372093" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="17" selection-start="1194" selection-end="1194" vertical-scroll-proportion="-0.65384614">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/application-3d50293fe5c62a01331df21cef7db36d.js">
+    <entry file="file://$PROJECT_DIR$/log/production.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21523" selection-start="21797" selection-end="21797" vertical-scroll-proportion="0.03761062" />
+        <state line="231" column="14" selection-start="14588" selection-end="14588" vertical-scroll-proportion="0.389049" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/groups_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="48" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/squid.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="49" selection-start="2065" selection-end="2065" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pages.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130228124251_add_details_to_users.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/addrs.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/groups_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="79" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
+        <state line="7" column="30" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/banlist.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="17" selection-start="1194" selection-end="1194" vertical-scroll-proportion="-21.538462">
-          <folding>
-            <marker date="1361858508614" expanded="true" signature="96:364" placeholder="..." />
-            <marker date="1361858508614" expanded="true" signature="216:349" placeholder="..." />
-            <marker date="1361858508614" expanded="true" signature="403:502" placeholder="..." />
-            <marker date="1361858508614" expanded="true" signature="526:615" placeholder="..." />
-            <marker date="1361858508614" expanded="true" signature="639:737" placeholder="..." />
-            <marker date="1361858508614" expanded="true" signature="761:851" placeholder="..." />
-            <marker date="1361858508614" expanded="true" signature="875:1043" placeholder="..." />
-            <marker date="1361858508614" expanded="true" signature="1080:1123" placeholder="..." />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/users.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="26" selection-start="645" selection-end="645" vertical-scroll-proportion="-18.307692">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/users_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="2" selection-start="21" selection-end="21" vertical-scroll-proportion="0.023709903">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="25" selection-start="877" selection-end="877" vertical-scroll-proportion="-18.307692">
+        <state line="5" column="6" selection-start="96" selection-end="96" vertical-scroll-proportion="-3.2692308">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_stylesheets.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="77" selection-start="126" selection-end="126" vertical-scroll-proportion="0.048991356">
           <folding />
         </state>
       </provider>

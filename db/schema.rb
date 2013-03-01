@@ -47,8 +47,8 @@ ActiveRecord::Schema.define(:version => 20130228124251) do
     t.string   "team"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-    t.string   "compmame"
     t.string   "macadress"
+    t.string   "compname"
   end
 
   add_index "users", ["ip"], :name => "index_users_on_ip", :unique => true

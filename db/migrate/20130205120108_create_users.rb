@@ -6,6 +6,8 @@ class CreateUsers < ActiveRecord::Migration
       t.string :s_name
       t.string :ip
       t.string :team
+      t.string :macadress
+      t.string :compname
 
       t.timestamps
     end
