@@ -20,6 +20,14 @@
     <td><strong>Группа:</strong></td>
     <td><%= @user.team %></td>
   </tr>
+  <tr>
+    <td><strong>MAC адрес:</strong></td>
+    <td><%= @user.macadress %></td>
+  </tr>
+  <tr>
+    <td><strong>Имя компьютера:</strong></td>
+    <td><%= @user.compmame %></td>
+  </tr>
 </table>
 <%= link_to 'Создать', new_user_path %> |
 <%= link_to 'Изменить', edit_user_path(@user) %> |

@@ -1,5 +1,9 @@
 <h1>Список пользователей</h1>
 
+<br />
+<%= link_to 'Новый пользователь', new_user_path %>
+<br />
+
 <table>
   <tr>
     <th><strong><%= sortable 'surname', 'Фамилия' %></strong></th>
@@ -7,6 +11,8 @@
     <th><strong><%= sortable 's_name', 'Отчество' %></strong></th>
     <th><strong><%= sortable 'ip', 'IP адрес' %></strong></th>
     <th><strong><%= sortable 'team', 'Группа' %></strong></th>
+    <th><strong><%= sortable 'macadress', 'MAC адрес' %></strong></th>
+    <th><strong><%= sortable 'compname', 'Имя компьютера' %></strong></th>
     <th></th>
     <th></th>
     <th></th>
@@ -19,6 +25,8 @@
     <td><%= user.s_name %></td>
     <td><%= user.ip %></td>
     <td><%= user.team %></td>
+    <td><%= user.macadress %></td>
+    <td><%= user.compname %></td>
     <td><%= link_to 'Просмотр', user %></td>
     <td><%= link_to 'Изменить', edit_user_path(user) %></td>
     <td><%= link_to 'Удалить', user, method: :delete, data: { confirm: 'Вы уверены?' } %></td>
@@ -27,6 +35,5 @@
 </table>
 
 <br />
-
 <%= link_to 'Новый пользователь', new_user_path %>
 

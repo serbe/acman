@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130214103417) do
+ActiveRecord::Schema.define(:version => 20130228124251) do
 
   create_table "addrs", :force => true do |t|
     t.string   "name"
@@ -47,6 +47,8 @@ ActiveRecord::Schema.define(:version => 20130214103417) do
     t.string   "team"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "compmame"
+    t.string   "macadress"
   end
 
   add_index "users", ["ip"], :name => "index_users_on_ip", :unique => true
