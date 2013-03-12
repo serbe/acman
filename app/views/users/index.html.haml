@@ -1,8 +1,8 @@
 = stylesheet_link_tag 'users.css.scss'
 %h1 Список пользователей
 = link_to 'Новый пользователь', new_user_path
-%br/
-%br/
+%br
+%br
 %table
   %tr
     %th
@@ -34,5 +34,5 @@
       %td= link_to 'Просмотр', user
       %td= link_to 'Изменить', edit_user_path(user)
       %td= link_to 'Удалить', user, method: :delete, data: { confirm: 'Вы уверены?' }
-%br/
+%br
 = link_to 'Новый пользователь', new_user_path
