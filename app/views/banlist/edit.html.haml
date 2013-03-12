@@ -1,0 +1,22 @@
+%h1 Редактирование банлиста
+= form_for(@banlist) do |f|
+  - if @banlist.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(@banlist.errors.count, 'error')
+        prohibited this user from being saved:
+      %ul
+        - @banlist.errors.full_messages.each do |msg|
+          %li= msg
+  .field
+    = f.label :name, 'Наименование'
+    %br/
+    = f.text_field :name
+  %br/
+  %br/
+  .actions
+    = f.submit 'Создать'
+%br/
+= link_to 'Просмотр', @banlist
+|
+\#{link_to 'Назад', banlist_path}

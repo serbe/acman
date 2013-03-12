@@ -1,0 +1,25 @@
+%p#notice= notice
+%p
+  %strong Имя группы:
+  = @group.name
+%strong Пользователи группы
+%table
+  %tr
+    %th
+      %strong= sortable 'surname', 'Фамилия'
+    %th
+      %strong= sortable 'name', 'Имя'
+    %th
+      %strong= sortable 's_name', 'Отчество'
+    %th
+      %strong= sortable 'ip', 'IP адрес'
+  - @users.each do |user|
+    - if user.team == @group.name
+      %tr
+        %td= user.surname
+        %td= user.name
+        %td= user.s_name
+        %td= user.ip
+= link_to 'Изменить', edit_group_path(@group)
+|
+\#{link_to 'Назад', group_path}

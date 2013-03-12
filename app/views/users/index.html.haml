@@ -1,0 +1,38 @@
+= stylesheet_link_tag 'users.css.scss'
+%h1 Список пользователей
+= link_to 'Новый пользователь', new_user_path
+%br/
+%br/
+%table
+  %tr
+    %th
+      %strong= sortable 'surname', 'Фамилия'
+    %th
+      %strong= sortable 'name', 'Имя'
+    %th
+      %strong= sortable 's_name', 'Отчество'
+    %th
+      %strong= sortable 'ip', 'IP адрес'
+    %th
+      %strong= sortable 'team', 'Группа'
+    %th
+      %strong= sortable 'macadress', 'MAC адрес'
+    %th
+      %strong= sortable 'compname', 'Имя компьютера'
+    %th
+    %th
+    %th
+  - @users.each do |user|
+    %tr
+      %td= user.surname
+      %td= user.name
+      %td= user.s_name
+      %td#ic= user.ip
+      %td#ic= user.team
+      %td#ic= user.macadress
+      %td#ic= user.compname
+      %td= link_to 'Просмотр', user
+      %td= link_to 'Изменить', edit_user_path(user)
+      %td= link_to 'Удалить', user, method: :delete, data: { confirm: 'Вы уверены?' }
+%br/
+= link_to 'Новый пользователь', new_user_path

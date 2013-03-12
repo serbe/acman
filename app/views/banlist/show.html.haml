@@ -1,0 +1,10 @@
+%p#notice= notice
+%table
+  %tr
+    %td
+      %strong Наименование
+    %td= @banlist.name
+= link_to 'Создать', new_banlist_path
+|
+\#{link_to 'Изменить', edit_banlist_path(@banlist)} |
+\#{link_to 'Назад', banlist_path}

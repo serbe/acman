@@ -1,0 +1,10 @@
+%table
+  %tr
+    %th Имя банлиста
+    %th Количество urls записей
+    %th Количество pcre записей
+  - Banlist.all.each do |item|
+    %tr
+      %td= item.name
+      %td= item.addrs.all.length
+      %td= item.pcres.all.length

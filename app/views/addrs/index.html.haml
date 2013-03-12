@@ -1,0 +1,12 @@
+%h1
+  Банлист - [#{@banlist.name}]
+%table
+  - unless @banlist.addrs.empty?
+    = will_paginate @addrs
+    %table.addrs{:summary => 'Banlist urls'}
+      %tr
+        %th URL
+      - @addrs.each do |addr|
+        %tr
+          %td= addr.name
+    = will_paginate @addrs

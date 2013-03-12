@@ -1,0 +1,20 @@
+%h1 Список банфайлов
+%table
+  %tr
+    %th
+      %strong Имя
+    %th
+      %strong Количество адресов
+    %th
+      %strong Количество regexp
+    %th
+    %th
+    %th
+  - @banlists.each do |banlist|
+    %tr
+      %td= banlist.name
+      %td= banlist.addrs.all.length
+      %td= banlist.pcres.all.length
+      %td= link_to 'Адреса', [banlist, :addrs]
+      %td= link_to 'Изменить', edit_banlist_path(banlist)
+      %td= link_to 'Удалить', banlist, method: :delete, data: { confirm: 'Вы уверены?' }

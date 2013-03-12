@@ -1,0 +1,16 @@
+%h1 Список групп пользователей
+%table
+  %tr
+    %td
+      %strong Наименование
+    %th
+    %th
+    %th
+  - @groups.each do |group|
+    %tr
+      %td= group.name
+      %td= link_to 'Просмотр', group
+      %td= link_to 'Редактирование', edit_group_path(group)
+      %td= link_to 'Удаление', group, method: :delete, data: { confirm: 'Вы уверены?' }
+%br/
+= link_to 'Новая группа', new_group_path
