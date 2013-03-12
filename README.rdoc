@@ -210,7 +210,7 @@ app/models
 
 app/views
   Holds the template files for the view that should be named like
-  weblogs/index.html.erb for the WeblogsController#index action. All views use
+  weblogs/index.html.haml for the WeblogsController#index action. All views use
   eRuby syntax by default.
 
 app/views/layouts

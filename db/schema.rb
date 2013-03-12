@@ -13,44 +13,44 @@
 
 ActiveRecord::Schema.define(:version => 20130228124251) do
 
-  create_table "addrs", :force => true do |t|
-    t.string   "name"
-    t.integer  "banlist_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+  create_table 'addrs', :force => true do |t|
+    t.string 'name'
+    t.integer 'banlist_id'
+    t.datetime 'created_at', :null => false
+    t.datetime 'updated_at', :null => false
   end
 
-  create_table "banlists", :force => true do |t|
-    t.string   "name",       :null => false
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+  create_table 'banlists', :force => true do |t|
+    t.string   'name',       :null => false
+    t.datetime 'created_at', :null => false
+    t.datetime 'updated_at', :null => false
   end
 
-  create_table "groups", :force => true do |t|
-    t.string   "name",       :null => false
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+  create_table 'groups', :force => true do |t|
+    t.string   'name',       :null => false
+    t.datetime 'created_at', :null => false
+    t.datetime 'updated_at', :null => false
   end
 
-  create_table "pcres", :force => true do |t|
-    t.string   "name"
-    t.integer  "banlist_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+  create_table 'pcres', :force => true do |t|
+    t.string 'name'
+    t.integer 'banlist_id'
+    t.datetime 'created_at', :null => false
+    t.datetime 'updated_at', :null => false
   end
 
-  create_table "users", :force => true do |t|
-    t.string   "surname"
-    t.string   "name",       :null => false
-    t.string   "s_name"
-    t.string   "ip"
-    t.string   "team"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-    t.string   "macadress"
-    t.string   "compname"
+  create_table 'users', :force => true do |t|
+    t.string 'surname'
+    t.string   'name',       :null => false
+    t.string 's_name'
+    t.string 'ip'
+    t.string 'team'
+    t.datetime 'created_at', :null => false
+    t.datetime 'updated_at', :null => false
+    t.string 'macadress'
+    t.string 'compname'
   end
 
-  add_index "users", ["ip"], :name => "index_users_on_ip", :unique => true
+  add_index 'users', ['ip'], :name => 'index_users_on_ip', :unique => true
 
 end

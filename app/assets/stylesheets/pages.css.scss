@@ -1,4 +1,76 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  //  font-family: arial, sans-serif;
+  //  color: #222222;
+  background-color: #c1c1c1;
+}
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+
+  a {
+    margin: 4px;
+    display: inline;
+    text-align: center;
+    width: 180px;
+    text-decoration: none;
+    color: #c1c1c1;
+
+    &:visited {
+      //a:visited - определяет оформление посещенной пользователем ссылки.
+      color: #FFFFFF;
+    }
+
+    &:link {
+      //a:link - определяет оформление обычной не посещенной ссылки.
+      display: block;
+      width: 140px;
+      //font-weight:bold;
+      color: #FFFFFF;
+      background-color: #575757;
+      text-align: center;
+      padding: 4px;
+      text-decoration: none;
+      //text-transform:uppercase;
+    }
+
+    &:active {
+      //a:active - определяет оформление ссылки, на которую щелкнули мышкой.
+    }
+
+    &:hover {
+      ////а:hover - определяет оформление ссылки, на которую наведен курсор мыши.
+      color: #575757;
+      background-color: #808080;
+    }
+  }
+}
+
+table {
+  border-collapse: collapse;
+
+  th {
+    border: 1px solid black;
+  }
+  td {
+    border: 1px solid black;
+    padding: 3px;
+
+    a {
+      //
+    }
+  }
+  td#ic {
+    text-align: center;
+  }
+
+}

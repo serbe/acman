@@ -5,7 +5,7 @@ class UsersController < ApplicationController
     @users = User.order(sort_column + ' ' + sort_direction)
 
     respond_to do |format|
-      format.html # index.html.erb
+      format.html # index.html.haml
       format.json { render json: @users }
     end
   end
@@ -14,7 +14,7 @@ class UsersController < ApplicationController
     @user = User.new
     @title = 'Create new user'
     respond_to do |format|
-      format.html # new.html.erb
+      format.html # new.html.haml
       format.json { render json: @user }
     end
   end
