@@ -7,7 +7,7 @@ class PagesController < ApplicationController
     @title = 'Users'
   end
 
-  def squid
+  def squid_update
     all_acls = Group.all
     eos = "\n"
     squid_path = '/etc/squid/'
