@@ -10,7 +10,7 @@
     %tr
       %td= group.name
       %td= link_to 'Просмотр', group
-      %td= link_to 'Редактирование', edit_group_path(group)
+      /%td= link_to 'Редактирование', edit_group_path(group)
       %td= link_to 'Удаление', group, method: :delete, data: { confirm: 'Вы уверены?' }
-%br/
+%br
 = link_to 'Новая группа', new_group_path
